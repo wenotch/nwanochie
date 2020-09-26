@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Nwanochie,Web developer, care deeply, creating world class website, help people, Nwanoch, Nwanochie Emmanuel, HTML, CSS, JavaScript, Web developer, front end developer, back end developer, nodejs, reactjs, mongoDB "
+    />
+    <link rel="canonical" href="https://www.nwanochie.com/hire" />
+    <meta name="author" content="Nwanochie Emmanuel" />
+    <link rel="icon" type="image/png" href="/images/favi.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/hire.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
+    <title>Nwanochie Emmanuel | Web Developer</title>
+    <script
+      src="https://kit.fontawesome.com/e623fb9df6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="main" onload="myFunction()" onclick="closeNav()">
+    <div class="loader" id="loader"></div>
+    <div class="overall" id="myDiv" style="display: none">
+      <div class="mobile" id="mySidenav">
+        <div class="mhh" id="mhh">
+          <a href="/" class="hell"> Home </a>
+          <a href="/hello" class="hell"> Say Hello </a>
+          <a href="/hire" class="actio"> Hire me</a>
+        </div>
+      </div>
+      <nav>
+        <div>
+          <a href="/"
+            ><img src="/images/nwanochie-emmanuel.png" alt="Nwanochie's logo"
+          /></a>
+        </div>
+        <div>
+          <a href="/hello" class="hello"> Say Hello </a>
+          <a href="/hire" class="action"> Hire me</a>
+          <a href="javascript:openNav()" class="bugger"
+            ><i class="fa fa-bars"></i
+          ></a>
+        </div>
+      </nav>
+      <div class="center">
+        <img src="/images/nwanochie-avatar.svg" alt="Nwanochie avatar" />
+        <div class="nwanoch">
+          <h1 class="">
+            Thanks for taking the time to reach out. How can I help you today?
+          </h1>
+        </div>
+        <form action="/hire" method="POST">
+          <div class="hold">
+            <div class="namee">
+              <label class="label nnn">Name</label><br />
+              <input name="name" id="name" type="text" />
+            </div>
+            <div class="namee">
+              <label class="label">Email</label><br />
+              <input name="email" id="email" type="email" required />
+            </div>
+          </div>
+
+          <div class="message">
+            <label class="label">Message</label><br />
+            <textarea
+              name="message"
+              id="message"
+              cols="100%"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="button-div">
+            <button type="submit" class="actionkk">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
